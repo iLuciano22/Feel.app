@@ -25,7 +25,7 @@ function esMultiploDe5(numero) {
     }
 }
 // PUNTO 4
-function imprimirNumerosHasta(numero) {
+function numerosHasta(numero) {
     for (var i = 0; i <= numero; i++) {
         console.log(i);
     }
@@ -37,13 +37,13 @@ function imprimirPalabra(palabra, cantidad) {
     }
 }
 // PUNTO 6
-function imprimirArray(array) {
+function calculoArray(array) {
     array.forEach(function(valor) {
         console.log(valor);
     });
 }
 // PUNTO 7 
-function imprimirArraySinQuinto(array) {
+function arraySinQuinto(array) {
     if (array.length >= 10) {
         array.forEach(function(valor, indice) {
             if (indice !== 4) { // El índice 4 corresponde a la 5ta posición (0-based)
